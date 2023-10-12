@@ -139,14 +139,7 @@
                 /*  */
             }
             
-            @media (min-width:1440px) {
-                .signup-from-img-frame {
-                    padding: 30px !important;
-                }
-                .sign-hed {
-                    padding: 17px 0;
-                }
-            }
+        
             
             @media (min-width:1190px) {
                 .container {
@@ -156,7 +149,18 @@
                     max-width: 1440px !important;
                 }
             }
-            
+                @media (min-width:1440px) {
+                .signup-from-img-frame {
+                    padding: 30px !important;
+                }
+                .sign-hed {
+                    padding: 17px 0;
+                }
+                .custom-header-conatiner{
+                padding:0 70px
+                }
+                        
+            }
             @media (max-width:1190px) {
                 .container {
                     width: 100% !important;
